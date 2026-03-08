@@ -1,0 +1,117 @@
+Python is a high-level, interpreted, object-oriented, and general-purpose programming language 
+designed to be easy to read and write.
+
+-------------------------------------------------
+
+Python was created by Guido van Rossum in 1991.
+Why he created Python ?
+He wanted to create a language that:
+1.Was easy to read and simple to learn
+2.Reduced complexity of programming
+3.Allowed developers to write code faster
+4.Combined the power of languages like C with the simplicity of scripting languages
+5.The name Python was inspired by the comedy show Monty Pythons Flying Circus, not the snake.
+
+-------------------------------------------------
+
+High-level-> language that is easy for humans to read and write because it uses simple, English-like syntax and hides hardware complexity.
+It does not directly interact with the computer hardware. Instead, it uses a compiler or interpreter to convert the code into machine language.
+It's high-level for machines to understand.
+
+-------------------------------------------------
+
+Compilation → whole program at once
+Interpretation → line by line execution
+
+-------------------------------------------------
+
+A general-purpose programming language is a language that can be used to build many different types of applications instead of being limited to one specific task.
+This means it can be used in multiple domains.
+Examples of What Python Can Build
+Websites
+Data analysis programs
+Machine learning models
+Automation scripts
+Desktop applications
+Because Python can be used in many fields, it is called a general-purpose language.
+
+-------------------------------------------------
+
+Advantages of Python:
+
+Main advantages include:
+1.Easy to learn-simple and readable syntax
+2.Less code-faster development
+3.Large community support
+4.Huge library ecosystem
+5.Cross-platform-runs on Windows, Linux, Mac
+6.Supports multiple paradigms
+7.Object-oriented
+8.Procedural
+9.Functional
+
+-------------------------------------------------
+
+Is Python compiled or interpreted?
+
+Python is both compiled and interpreted.
+
+Python Code or source code (.py)file
+       ↓
+Compiled to Bytecode (.pyc)
+       ↓
+Executed by Python Virtual Machine
+       ↓
+Machine Code (CPU executes)
+
+source code(.py file)-->complied->to Bytecode-->interpreted->by python Virtual machine(pvm)-->machine code
+
+why bytecode ?
+beacause portability -> concept where write code run anywhere
+here as your machine changes your cpu architecture also changes.(and maynot work in other machines).
+to solve this issue we have virtual machines 
+so this VM we can run the bytecode and we can get the native code (so here no problems of machine.. we can run it in any device)
+
+-------------------------------------------------
+
+1. Compile Time
+
+Compile time is the phase when the source code is translated into bytecode or machine code before the program starts executing.
+During this phase, the compiler/interpreter checks for syntax errors.
+Key Points:
+Happens before execution
+Converts code to bytecode or machine code
+Detects syntax errors
+No program output yet
+Example (Python Syntax Error)
+print("Hello"
+Error:
+SyntaxError: unexpected EOF while parsing
+This error occurs before the program runs, so it is a compile-time error.
+
+-------------------------------------------------
+
+Run time is the phase when the program is actually executing after compilation.
+During this phase, the program performs operations and produces output.
+Key Points:
+Happens during program execution
+Program runs and produces output
+Errors that occur during execution are runtime errors
+Example (Runtime Error)
+a = 10
+b = 0
+print(a / b)
+Error:
+ZeroDivisionError
+This occurs while the program is running, so it is a runtime error.
+
+
+#List is a collection which is ordered and changeable. Allows duplicate members.
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+#Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+#Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+logical operators
+and - Returns True if both statements are true
+or - Returns True if one of the statements is true
+not - Reverses the result, returns False if the result is true
