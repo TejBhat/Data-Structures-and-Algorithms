@@ -21,6 +21,7 @@ for num in arr:
 #Time Complexity: O(n) ✅
 #Space Complexity: O(n)
 
+
 #Method 2 — Using Nested Loop
 arr = [2,7,11,15]
 target = 9
