@@ -17,5 +17,4 @@ print(linear_search(arr, 30))
 #Complexity
 #Time Complexity	O(n)
 #Space Complexity	O(1)
-
 #Worst case: check all elements.
