@@ -10,7 +10,6 @@ def linear_search(arr, target):
     return -1
 
 arr = [10, 20, 30, 40, 50]
-
 print(linear_search(arr, 30))
 #Output
 #2
