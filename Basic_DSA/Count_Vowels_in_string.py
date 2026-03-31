@@ -4,7 +4,6 @@
 
 #Method 1 — Using Loop
 s = input("Enter string: ")
-
 count = 0
 
 for ch in s:
