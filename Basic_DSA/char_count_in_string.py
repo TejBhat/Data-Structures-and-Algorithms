@@ -9,9 +9,7 @@ e : 1
 
 #Method 1 — Using Dictionary
 s = input("Enter string: ")
-
 freq = {}
-
 for ch in s:
     if ch in freq:
         freq[ch] += 1
