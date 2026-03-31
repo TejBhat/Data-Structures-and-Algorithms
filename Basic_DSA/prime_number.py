@@ -17,9 +17,7 @@ else:
 #Space Complexity: O(1)
 
 #Method 2 — Optimized Method
-
 num = int(input("Enter number: "))
-
 flag = True
 
 if num <= 1:
